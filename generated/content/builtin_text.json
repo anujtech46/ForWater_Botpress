@@ -133,7 +133,7 @@
   {
     "id": "builtin_text-Y2WnFj",
     "formData": {
-      "text": "OK great.  To keep it simple I can answer about 10 questions about the product so let's see if you ask one of those ten questions.  What is your question?",
+      "text": "To keep it simple I can answer about 10 questions about the product so let's see if you ask one of those ten questions.  What is your question?",
       "typing": true
     },
     "createdBy": "admin",
@@ -151,7 +151,7 @@
   {
     "id": "builtin_text-SJ6h3l",
     "formData": {
-      "text": "Greate!",
+      "text": "Great!",
       "typing": true
     },
     "createdBy": "admin",
@@ -160,7 +160,7 @@
   {
     "id": "builtin_text-sOVRUM",
     "formData": {
-      "text": "Oh dear. I'm sorry.  You can ask \"what license does Botpress use\" if that makes you feel better?",
+      "text": "You can ask  any question about ForWater",
       "typing": true
     },
     "createdBy": "admin",
@@ -178,7 +178,7 @@
   {
     "id": "builtin_text-CU~GvC",
     "formData": {
-      "text": "1. What is Botpress?\n2. Why do I need a chatbot?\n3. What is a chabot?\n4. Who should use Botpress?\n5. Who are Botpress' competitors?\n6. Where is Botpress based?\n7. What technology does Botpress use?\n8. What is the Botpress pricing?\n9. What license does Botpress have?\n10. What is open source?",
+      "text": "1.  How can you register and get user credentials to sign in to the platform?\n2.  How do you sign up on the platform?\n3.  How do you add profile on the platform?",
       "typing": true
     },
     "createdBy": "admin",
@@ -187,10 +187,29 @@
   {
     "id": "builtin_text-IzWaqd",
     "formData": {
-      "text": "Oh dear, your question wasn't recognized, I'm so embarressed I can't even look at you. Let's try again.",
+      "text": "Oh dear, your question wasn't recognized. ",
       "typing": true
     },
     "createdBy": "admin",
     "createdOn": "2018-08-09T15:39:21.360Z"
+  },
+  {
+    "id": "builtin_text-g6~7vj",
+    "formData": {
+      "text": "hitest",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-13T09:49:47.226Z"
+  },
+  {
+    "id": "builtin_text-farNcl",
+    "formData": {
+      "text": "Knowledge ForWater is an attempt at transferring and building expertise at scale by making context specific, vernacular and atomized knowledge available, by using digital technologies to enable community action on water. ",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-14T06:27:43.251Z"
   }
 ]

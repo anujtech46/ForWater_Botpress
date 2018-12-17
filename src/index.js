@@ -21,14 +21,19 @@ module.exports = async bp => {
   }
 
   const webchat = {
-    botName: 'Basic',
-    botAvatarUrl: null, // You can provide a URL here
-    botConvoTitle: 'Botpress Basic Webchat Bot',
-    botConvoDescription: "Hello, I'm a Botpress bot!",
+    // host: '<host>',
+    botId: '20181217', //The ID for your bot
+    botName: 'ForWater',
+    botAvatarUrl: 'https://jaldhara.blob.core.windows.net/portal-logo/dev_sunbird_logo.png', // You can provide a URL here
+    botConvoTitle: 'ForWater',
+    botConvoDescription: "Hello, I'm a ForWater bot!",
     backgroundColor: '#ffffff',
     textColorOnBackground: '#666666',
     foregroundColor: '#000000',
-    textColorOnForeground: '#ffffff'
+    textColorOnForeground: '#ffffff',
+    welcomeMsgEnable: true,
+    welcomeMsgDelay: 1000,
+    welcomeMsgText: 'Hello world!'
   }
 
   bp.createShortlink('chat', '/lite', {
@@ -48,6 +53,10 @@ module.exports = async bp => {
   // All events that should be processed by the Flow Manager
   bp.hear({ type: /bp_dialog_timeout|text|message|quick_reply/i }, (event, next) => {
     bp.dialogEngine.processMessage(event.sessionId || event.user.id, event).then()
+  })
+
+  bp.hear(/GET_STARTED|hello|hi|hey/i, (event, next) => {
+    event.reply('#welcome') // #welcome is the name of a message bloc defined in `content.yml`
   })
 }
 

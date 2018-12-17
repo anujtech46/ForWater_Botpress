@@ -1,45 +1,26 @@
 {
   "version": "0.1",
-  "catchAll": {},
-  "startNode": "node-28c2",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Welcome",
   "nodes": [
     {
-      "id": "07ed24c0de",
-      "name": "node-28c2",
+      "id": "530b5f2f50",
+      "name": "Welcome",
       "next": [
         {
-          "condition": "event.nlu.intent.is('hello_fn')",
-          "node": "fn.flow.json"
+          "condition": "event.text === 'Hi! I want to know about ForWater '",
+          "node": "Info.flow.json"
         },
         {
-          "condition": "event.nlu.intent.is('hello_en')",
-          "node": "en.flow.json"
-        },
-        {
-          "condition": "true",
-          "node": "node-90cf"
+          "condition": "event.text === 'Not Interested'",
+          "node": "NotInterested.flow.json"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-lflYLH"
-      ],
-      "onReceive": []
-    },
-    {
-      "id": "6b4817b8cd",
-      "name": "node-90cf",
-      "next": [
-        {
-          "condition": "event.text === 'English'",
-          "node": "en.flow.json"
-        },
-        {
-          "condition": "event.text=== 'French'",
-          "node": "fn.flow.json"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_single-choice-umTBq3"
+        "say #!builtin_single-choice-6gpRk5"
       ],
       "onReceive": []
     }
