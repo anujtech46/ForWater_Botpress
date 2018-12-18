@@ -11,18 +11,41 @@
       "name": "Welcome",
       "next": [
         {
-          "condition": "event.text === 'Hi! I want to know about ForWater '",
-          "node": "Info.flow.json"
+          "condition": "event.text === \"Yes\"",
+          "node": "Question_1"
         },
         {
-          "condition": "event.text === 'Not Interested'",
-          "node": "NotInterested.flow.json"
+          "condition": "event.text === 'No'",
+          "node": "youtube_link"
         }
       ],
       "onEnter": [
-        "say #!builtin_single-choice-6gpRk5"
+        "say #!builtin_text-I_px_9",
+        "say #!builtin_single-choice-uzB1Tl"
       ],
       "onReceive": []
+    },
+    {
+      "id": "7f1ea1210c",
+      "name": "youtube_link",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_card-K~ZOPl"
+      ],
+      "onReceive": [
+        "say #!builtin_text-Y1Q52G"
+      ]
+    },
+    {
+      "id": "5090b7b359",
+      "name": "Question_1",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-3F8nQ9"
+      ],
+      "onReceive": [
+        "say #!builtin_text-Y1Q52G"
+      ]
     }
   ]
 }

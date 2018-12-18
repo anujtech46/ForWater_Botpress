@@ -31,61 +31,6 @@
     "createdOn": "2018-05-14T01:00:37.593Z"
   },
   {
-    "id": "builtin_text-TtzrCV",
-    "formData": {
-      "text": "Alright, I have forgotten your name.",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-05-14T01:06:41.963Z"
-  },
-  {
-    "id": "builtin_text-z0J9qh",
-    "formData": {
-      "text": "May I know your name please?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-05-14T01:08:41.241Z"
-  },
-  {
-    "id": "builtin_text-X069Le",
-    "formData": {
-      "text": "Try saying something like \"forget my name\"!",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-05-14T01:16:53.227Z"
-  },
-  {
-    "id": "builtin_text-kKQ8C3",
-    "formData": {
-      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-05-14T01:17:55.317Z"
-  },
-  {
-    "id": "builtin_text-lflYLH",
-    "formData": {
-      "text": "How do you say hello in your language (English or French)?",
-      "variations": [],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-06T18:37:38.807Z"
-  },
-  {
-    "id": "builtin_text-fh0Ltl",
-    "formData": {
-      "text": "Sorry did you say something in English or French, I'm was waiting for you to say hello in one of those languages?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-06T18:40:48.262Z"
-  },
-  {
     "id": "builtin_text-Fwf2I9",
     "formData": {
       "text": "Bonjour",
@@ -93,51 +38,6 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-08-07T12:15:59.342Z"
-  },
-  {
-    "id": "builtin_text-mBvg0A",
-    "formData": {
-      "text": "Sorry but I can't help you(",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T14:01:37.589Z"
-  },
-  {
-    "id": "builtin_text-TXfdDI",
-    "formData": {
-      "text": "OK Hello. I'm Mr. Press, but you can call me Bot.  Not Bob, Bot.",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:00:28.289Z"
-  },
-  {
-    "id": "builtin_text-~kfCS3",
-    "formData": {
-      "text": "I am a simple demo that allows you to look behind the scenes at how I was made",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:01:05.088Z"
-  },
-  {
-    "id": "builtin_text-lLcRSl",
-    "formData": {
-      "text": "Please let me know what I can help you with by clicking a button below:",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:01:41.528Z"
-  },
-  {
-    "id": "builtin_text-Y2WnFj",
-    "formData": {
-      "text": "To keep it simple I can answer about 10 questions about the product so let's see if you ask one of those ten questions.  What is your question?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:08:22.290Z"
   },
   {
     "id": "builtin_text-pgUR5j",
@@ -167,15 +67,6 @@
     "createdOn": "2018-08-07T15:15:16.898Z"
   },
   {
-    "id": "builtin_text-hoV~PQ",
-    "formData": {
-      "text": "What is your question?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T10:31:20.733Z"
-  },
-  {
     "id": "builtin_text-CU~GvC",
     "formData": {
       "text": "1.  How can you register and get user credentials to sign in to the platform?\n2.  How do you sign up on the platform?\n3.  How do you add profile on the platform?",
@@ -194,15 +85,6 @@
     "createdOn": "2018-08-09T15:39:21.360Z"
   },
   {
-    "id": "builtin_text-g6~7vj",
-    "formData": {
-      "text": "hitest",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-13T09:49:47.226Z"
-  },
-  {
     "id": "builtin_text-farNcl",
     "formData": {
       "text": "Knowledge ForWater is an attempt at transferring and building expertise at scale by making context specific, vernacular and atomized knowledge available, by using digital technologies to enable community action on water. ",
@@ -211,5 +93,70 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-12-14T06:27:43.251Z"
+  },
+  {
+    "id": "builtin_text-QZC9Dy",
+    "formData": {
+      "text": "Thanks for your time. Good day!!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T07:00:36.388Z"
+  },
+  {
+    "id": "builtin_text-HktMQQ",
+    "formData": {
+      "text": "Evidence of improved water resource/ video/ image/ text:  https://www.youtube.com/watch?v=StEoS7wJiq4&t=23s \n",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T09:18:17.342Z"
+  },
+  {
+    "id": "builtin_text-3F8nQ9",
+    "formData": {
+      "text": "What kind of water resources do you have in your village\n1.  Springs(Definition: Springs are natural discharge of groundwater on topographic surface, which contribute significantly to perennial rivers)\n2.  Water bodies (like lakes, ponds)\n3.  Wells",
+      "variations": [],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T09:21:30.460Z"
+  },
+  {
+    "id": "builtin_text-JarY0E",
+    "formData": {
+      "text": "If you already are familiar with how to measure a spring. please use (kobo link) and record your spring discharge data ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T11:19:21.372Z"
+  },
+  {
+    "id": "builtin_text-d8MVEc",
+    "formData": {
+      "text": "If you want to take a course on springs, here is the link\nCourses on knowledgeforwater\n",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T11:21:19.381Z"
+  },
+  {
+    "id": "builtin_text-Y1Q52G",
+    "formData": {
+      "text": "Your question was not  recognized. Please try again.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T11:47:49.675Z"
+  },
+  {
+    "id": "builtin_text-I_px_9",
+    "formData": {
+      "text": "Hey there!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T12:18:54.487Z"
   }
 ]

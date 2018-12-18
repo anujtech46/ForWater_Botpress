@@ -1,127 +1,40 @@
 [
   {
-    "id": "builtin_single-choice-13Ysut",
+    "id": "builtin_single-choice-uzB1Tl",
     "formData": {
-      "text": "Please let me know what I can help you with by clicking a button below:",
-      "choices": [
-        {
-          "title": "Product Inquiry",
-          "value": "pi"
-        }
-      ],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:03:56.536Z"
-  },
-  {
-    "id": "builtin_single-choice-ODWaWI",
-    "formData": {
-      "text": "Did that answer your question?",
+      "text": "India has a x% shortage of water. Do you know that you can improve the water availability in your neighbourhood/village",
       "choices": [
         {
           "title": "Yes",
-          "value": "yes"
+          "value": "Yes"
         },
         {
           "title": "No",
-          "value": "no"
+          "value": "No"
         }
       ],
       "typing": true
     },
     "createdBy": "admin",
-    "createdOn": "2018-08-08T16:25:11.179Z"
+    "createdOn": "2018-12-18T09:07:40.797Z"
   },
   {
-    "id": "builtin_single-choice-umTBq3",
+    "id": "builtin_single-choice-pRc_ga",
     "formData": {
-      "text": "Sorry did you say something in English or French, I'm was waiting for you to say hello in one of those languages?",
+      "text": "Now that you know what springs are, do you want to learn how to measure a spring?",
       "choices": [
-        {
-          "title": "French",
-          "value": "fn"
-        },
-        {
-          "title": "English",
-          "value": "en"
-        }
-      ],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T10:08:00.996Z"
-  },
-  {
-    "id": "builtin_single-choice-NTQHQn",
-    "formData": {
-      "text": "Oh dear. I'm sorry.  You can ask \"what license does Botpress use\" if that makes you feel better?",
-      "choices": [
-        {
-          "title": "I want to ask another question?",
-          "value": "other"
-        }
-      ],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T10:21:35.104Z"
-  },
-  {
-    "id": "builtin_single-choice-5mELxx",
-    "formData": {
-      "text": "Did that answer your question?",
-      "choices": [
-        {
-          "title": "No",
-          "value": "no"
-        },
         {
           "title": "Yes",
-          "value": "yes"
-        }
-      ],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T10:29:27.089Z"
-  },
-  {
-    "id": "builtin_single-choice-9QtsmX",
-    "formData": {
-      "text": "Please let me know what I can help you with by clicking a button below:",
-      "choices": [
-        {
-          "title": "I want to ask another question",
-          "value": "askother"
+          "value": "Yes"
         },
         {
-          "title": "Product Inquiry",
-          "value": "PI"
+          "title": "No",
+          "value": "No"
         }
       ],
       "typing": true
     },
     "createdBy": "admin",
-    "createdOn": "2018-08-09T14:56:47.327Z"
-  },
-  {
-    "id": "builtin_single-choice-6gpRk5",
-    "formData": {
-      "text": "Hey there!",
-      "choices": [
-        {
-          "title": "Hi! I want to know about ForWater ",
-          "value": "Hi! I want to know about ForWater "
-        },
-        {
-          "title": "Not Interested",
-          "value": "Not interested"
-        }
-      ],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-13T09:26:52.824Z"
+    "createdOn": "2018-12-18T11:16:27.054Z"
   }
 ]

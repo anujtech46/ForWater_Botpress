@@ -1,0 +1,14 @@
+{
+  "id": "6s2i94har8_springs",
+  "data": {
+    "questions": [
+      "Springs"
+    ],
+    "answer": "Know more about springs",
+    "redirectFlow": "Springs.flow.json",
+    "redirectNode": "entry",
+    "action": "text_redirect",
+    "category": "",
+    "enabled": true
+  }
+}
