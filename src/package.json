@@ -1,7 +1,7 @@
 {
-  "name": "demo",
+  "name": "forwater-botpress",
   "version": "1.0.0",
-  "description": "Demo for client",
+  "description": "This service used to perform enable chat bot service",
   "main": "index.js",
   "engines": {
     "node": ">= 6.1 < 9"
@@ -24,6 +24,6 @@
     "ghost-sync": "botpress ghost-sync",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Botpress",
+  "author": "forwater",
   "license": "AGPL-3.0-only"
 }
