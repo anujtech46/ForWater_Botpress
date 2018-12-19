@@ -1,0 +1,22 @@
+[
+  {
+    "id": "builtin_carousel-v4oEt9",
+    "formData": [
+      {
+        "title": "Test Carousel 1",
+        "subtitle": " Intro carousel 1",
+        "image": "/media/u41ir0ojmzk8mwnd8906-Banner1.jpg",
+        "actions": [],
+        "typing": true
+      },
+      {
+        "title": "Test Carousel 2",
+        "subtitle": "Intro carousel 2",
+        "image": "/media/p8uhai9nll5agrz8p8ce-Banner2.jpg",
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T06:56:29.353Z"
+  }
+]

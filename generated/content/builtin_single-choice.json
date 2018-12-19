@@ -1,0 +1,40 @@
+[
+  {
+    "id": "builtin_single-choice-uzB1Tl",
+    "formData": {
+      "text": "India has a x% shortage of water. Do you know that you can improve the water availability in your neighbourhood/village",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T09:07:40.797Z"
+  },
+  {
+    "id": "builtin_single-choice-pRc_ga",
+    "formData": {
+      "text": "Now that you know what springs are, do you want to learn how to measure a spring?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-12-18T11:16:27.054Z"
+  }
+]

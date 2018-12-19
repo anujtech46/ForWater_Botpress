@@ -1,0 +1,42 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "509e5b36cf",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_carousel-v4oEt9"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-fde4"
+        }
+      ]
+    },
+    {
+      "id": "91f0a2cc29",
+      "name": "node-fde4",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'test'",
+          "node": "node-5bb7"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": []
+    },
+    {
+      "id": "2e4598e418",
+      "name": "node-5bb7",
+      "next": [],
+      "onEnter": [],
+      "onReceive": [
+        "say #!builtin_text-QZC9Dy"
+      ]
+    }
+  ]
+}
