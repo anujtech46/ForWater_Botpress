@@ -1,0 +1,14 @@
+{
+  "id": "v5gozcp2kb_wells",
+  "data": {
+    "questions": [
+      "Wells"
+    ],
+    "answer": "Know more about Wells",
+    "redirectFlow": "Wells.flow.json",
+    "redirectNode": "entry",
+    "action": "text_redirect",
+    "category": "",
+    "enabled": true
+  }
+}
