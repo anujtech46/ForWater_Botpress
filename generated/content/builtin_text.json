@@ -31,24 +31,6 @@
     "createdOn": "2018-05-14T01:00:37.593Z"
   },
   {
-    "id": "builtin_text-Fwf2I9",
-    "formData": {
-      "text": "Bonjour",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T12:15:59.342Z"
-  },
-  {
-    "id": "builtin_text-pgUR5j",
-    "formData": {
-      "text": "Did that answer your question?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:13:15.440Z"
-  },
-  {
     "id": "builtin_text-SJ6h3l",
     "formData": {
       "text": "Great!",
@@ -58,43 +40,6 @@
     "createdOn": "2018-08-07T15:14:32.196Z"
   },
   {
-    "id": "builtin_text-sOVRUM",
-    "formData": {
-      "text": "You can ask  any question about ForWater",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-07T15:15:16.898Z"
-  },
-  {
-    "id": "builtin_text-CU~GvC",
-    "formData": {
-      "text": "1.  How can you register and get user credentials to sign in to the platform?\n2.  How do you sign up on the platform?\n3.  How do you add profile on the platform?",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T15:37:26.463Z"
-  },
-  {
-    "id": "builtin_text-IzWaqd",
-    "formData": {
-      "text": "Oh dear, your question wasn't recognized. ",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-08-09T15:39:21.360Z"
-  },
-  {
-    "id": "builtin_text-farNcl",
-    "formData": {
-      "text": "Knowledge ForWater is an attempt at transferring and building expertise at scale by making context specific, vernacular and atomized knowledge available, by using digital technologies to enable community action on water. ",
-      "variations": [],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-14T06:27:43.251Z"
-  },
-  {
     "id": "builtin_text-QZC9Dy",
     "formData": {
       "text": "Thanks for your time. Good day!!",
@@ -102,53 +47,6 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-12-18T07:00:36.388Z"
-  },
-  {
-    "id": "builtin_text-HktMQQ",
-    "formData": {
-      "text": "Evidence of improved water resource/ video/ image/ text:  https://www.youtube.com/watch?v=StEoS7wJiq4&t=23s \n",
-      "variations": [],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-18T09:18:17.342Z"
-  },
-  {
-    "id": "builtin_text-3F8nQ9",
-    "formData": {
-      "text": "What kind of water resources do you have in your village\n1.  Springs(Definition: Springs are natural discharge of groundwater on topographic surface, which contribute significantly to perennial rivers)\n2.  Water bodies (like lakes, ponds)\n3.  Wells",
-      "variations": [],
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-18T09:21:30.460Z"
-  },
-  {
-    "id": "builtin_text-JarY0E",
-    "formData": {
-      "text": "If you already are familiar with how to measure a spring. please use (kobo link) and record your spring discharge data ",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-18T11:19:21.372Z"
-  },
-  {
-    "id": "builtin_text-d8MVEc",
-    "formData": {
-      "text": "If you want to take a course on springs, here is the link\nCourses on knowledgeforwater\n",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-18T11:21:19.381Z"
-  },
-  {
-    "id": "builtin_text-Y1Q52G",
-    "formData": {
-      "text": "Your question was not  recognized. Please try again.",
-      "typing": true
-    },
-    "createdBy": "admin",
-    "createdOn": "2018-12-18T11:47:49.675Z"
   },
   {
     "id": "builtin_text-I_px_9",
