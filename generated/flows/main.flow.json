@@ -1,0 +1,141 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "Welcome",
+  "nodes": [
+    {
+      "id": "530b5f2f50",
+      "name": "Welcome",
+      "next": [
+        {
+          "condition": "true",
+          "node": "percentage_of_water_world"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-I_px_9",
+        "say #!builtin_text-e6bZKS"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2e13db1bfc",
+      "name": "Incorrect",
+      "next": [
+        {
+          "condition": "true",
+          "node": "water_availability"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-d9MKZm",
+        "wait {\"time\":\"2000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-a313ed",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "water_availability",
+      "flow": "skills/choice-a313ed.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "state['skill-choice-ret'] == \"Yes\"",
+          "node": "choice-33ef81"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "state['skill-choice-ret'] == \"No\"",
+          "node": "Water_resources_link"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-33ef81",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-33ef81",
+      "flow": "skills/choice-33ef81.flow.json",
+      "next": [
+        {
+          "condition": "state['skill-choice-ret'] == \"Springs\"",
+          "node": "Springs.flow.json"
+        },
+        {
+          "caption": "User picked [Wells]",
+          "condition": "state['skill-choice-ret'] == \"Wells\"",
+          "node": ""
+        },
+        {
+          "caption": "User picked [Lakes/P...]",
+          "condition": "state['skill-choice-ret'] == \"Lakes/Ponds\"",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8032cf5250",
+      "name": "Water_resources_link",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-33ef81"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-Q7rbSU",
+        "wait {\"time\":\"3000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a111b7d36c",
+      "name": "Correct",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Springs.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TDRK7e"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-25846f",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "percentage_of_water_world",
+      "flow": "skills/choice-25846f.flow.json",
+      "next": [
+        {
+          "caption": "User picked [4]",
+          "condition": "state['skill-choice-ret'] == \"4\"",
+          "node": "Correct"
+        },
+        {
+          "caption": "User picked [7]",
+          "condition": "state['skill-choice-ret'] == \"7\"",
+          "node": "Incorrect"
+        },
+        {
+          "caption": "User picked [11]",
+          "condition": "state['skill-choice-ret'] == \"11\"",
+          "node": "Incorrect"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}
