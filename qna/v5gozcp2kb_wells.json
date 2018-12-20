@@ -4,8 +4,8 @@
     "questions": [
       "Wells"
     ],
-    "answer": "Know more about Wells",
-    "redirectFlow": "Wells.flow.json",
+    "answer": "More info about Wells will be provided soon",
+    "redirectFlow": "Springs.flow.json",
     "redirectNode": "entry",
     "action": "text_redirect",
     "category": "",

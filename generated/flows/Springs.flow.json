@@ -1,46 +1,122 @@
 {
   "version": "0.1",
   "catchAll": {},
-  "startNode": "entry",
+  "startNode": "Springs_work",
   "nodes": [
     {
-      "id": "afc5b6e01d",
-      "name": "entry",
-      "onEnter": [
-        "say #!builtin_card-sUoHLL",
-        "wait {\"time\":\"3000\"}",
-        "say #!builtin_single-choice-pRc_ga"
-      ],
-      "onReceive": null,
+      "id": "82494936b8",
+      "name": "node-e3b1",
       "next": [
         {
-          "condition": "event.text === \"Yes\"",
-          "node": "Spring_discharge"
+          "condition": "true",
+          "node": "how_to_measure_spring_discharge"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-SJ6h3l"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-e4863a",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Springs_work",
+      "flow": "skills/choice-e4863a.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "state['skill-choice-ret'] == \"Yes\"",
+          "node": "node-e3b1"
         },
         {
-          "condition": "event.text === \"No\"",
-          "node": "node-dbfd"
+          "caption": "User picked [No]",
+          "condition": "state['skill-choice-ret'] == \"No\"",
+          "node": "resource_about_springs_link"
         }
-      ]
-    },
-    {
-      "id": "e041952a75",
-      "name": "Spring_discharge",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_card-MxNicW",
-        "wait {\"time\":\"3000\"}",
-        "say #!builtin_text-d8MVEc",
-        "say #!builtin_card-nk71x1"
       ],
-      "onReceive": []
+      "onEnter": null,
+      "onReceive": null
     },
     {
-      "id": "601d852ec8",
-      "name": "node-dbfd",
-      "next": [],
+      "id": "skill-4ae4a1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "how_to_measure_spring_discharge",
+      "flow": "skills/choice-4ae4a1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Yes]",
+          "condition": "state['skill-choice-ret'] == \"Yes\"",
+          "node": "Measure_Spring_discharge"
+        },
+        {
+          "caption": "User picked [No]",
+          "condition": "state['skill-choice-ret'] == \"No\"",
+          "node": "record_data"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8bb498fcee",
+      "name": "resource_about_springs_link",
+      "next": [
+        {
+          "condition": "true",
+          "node": "how_to_measure_spring_discharge"
+        }
+      ],
       "onEnter": [
-        "say #!builtin_text-JarY0E"
+        "say #!builtin_card-HxYKFx",
+        "wait {\"time\":\"2000\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "76d3532e24",
+      "name": "Measure_Spring_discharge",
+      "next": [
+        {
+          "condition": "true",
+          "node": "record_data"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_card-2WxnYN"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2d8397cf04",
+      "name": "record_data",
+      "next": [
+        {
+          "condition": "true",
+          "node": "thanks_you"
+        }
+      ],
+      "onEnter": [
+        "wait {\"time\":\"3000\"}",
+        "say #!builtin_text-T6wWhT",
+        "wait {\"time\":\"3000\"}",
+        "say #!builtin_card-uMfXkK"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "b097de32c1",
+      "name": "thanks_you",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "wait {\"time\":\"5000\"}",
+        "say #!builtin_text-QZC9Dy"
       ],
       "onReceive": null
     }

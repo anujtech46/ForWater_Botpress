@@ -2,10 +2,10 @@
   "id": "1rgmgbyzki_water_bodies",
   "data": {
     "questions": [
-      "Water bodies"
+      "Lakes/Ponds"
     ],
-    "answer": "Know more about Water bodies",
-    "redirectFlow": "WaterBodies.flow.json",
+    "answer": "More info about Lakes/Ponds will be provided soon.",
+    "redirectFlow": "Springs.flow.json",
     "redirectNode": "entry",
     "action": "text_redirect",
     "category": "",
