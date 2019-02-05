@@ -101,5 +101,14 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-12-20T06:11:57.223Z"
+  },
+  {
+    "id": "builtin_text-ETK_pg",
+    "formData": {
+      "text": "Hi! How can I help you today?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-02-04T09:38:36.166Z"
   }
 ]

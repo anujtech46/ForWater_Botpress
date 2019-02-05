@@ -1,6 +1,6 @@
 const { Botpress } = require('botpress')
-
+console.log(JSON.stringify(require('./botfile.js')))
 const bot = new Botpress({ botfile: require('./botfile.js') })
 bot.start()
-
+//bot.contentManager.recomputeCategoriesMetadata()
 module.exports = require('./src/index')

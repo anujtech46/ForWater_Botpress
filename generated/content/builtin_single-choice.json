@@ -101,5 +101,39 @@
     },
     "createdBy": "admin",
     "createdOn": "2018-12-20T06:01:59.175Z"
+  },
+  {
+    "id": "builtin_single-choice-hjFE7O",
+    "formData": {
+      "text": "How is your Borewell",
+      "choices": [
+        {
+          "title": "My borewell is getting dry.",
+          "value": "dryborewell"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-02-04T10:22:47.884Z"
+  },
+  {
+    "id": "builtin_single-choice-0sbn_l",
+    "formData": {
+      "text": "Tell us more about the borewell that has gone dry.",
+      "choices": [
+        {
+          "title": "My borewell has gone dry",
+          "value": "mydryborewell"
+        },
+        {
+          "title": "Mine and other borewells in the locality have gone dry",
+          "value": "alldryborewells"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-02-04T10:25:47.853Z"
   }
 ]

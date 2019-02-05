@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "test",
+  "nodes": [
+    {
+      "id": "4b84d75d48",
+      "name": "test",
+      "onEnter": [
+        ""
+      ],
+      "onReceive": [
+        "say #!builtin_single-choice-0sbn_l"
+      ],
+      "next": []
+    }
+  ]
+}
